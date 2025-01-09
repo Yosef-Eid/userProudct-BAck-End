@@ -34,5 +34,3 @@ This project is a backend application built with Node.js and Express, providing 
 
 ---
 
-## License
-This project is licensed under the MIT License.
