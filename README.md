@@ -31,45 +31,6 @@ This project is a backend application built with Node.js and Express, providing 
 
 ---
 
-## How to Run
-
-1. **Clone the repository:**
-   ```bash
-   git clone <repository_url>
-   ```
-2. **Install dependencies:**
-   ```bash
-   npm install
-   ```
-3. **Set environment variables:**
-   Create a `.env` file and configure the following variables:
-   ```env
-   PORT=3000
-   MONGO_URI=<your_mongo_database_uri>
-   JWT_SECRET=<your_jwt_secret>
-   ```
-4. **Start the server:**
-   ```bash
-   npm start
-   ```
-
----
-
-## API Endpoints
-
-### **Auth Routes**
-- `POST /auth/register` - Register a new user.
-- `POST /auth/login` - User login.
-- `POST /auth/reset-password` - Reset password.
-
-### **Admin Routes**
-- `GET /admin/users` - Get all users (admin only).
-
-### **Product Routes**
-- `POST /products` - Add a new product.
-- `GET /products/:id` - Get product details by ID.
-- `PUT /products/:id` - Update product by ID.
-- `DELETE /products/:id` - Delete product by ID.
 
 ---
 
